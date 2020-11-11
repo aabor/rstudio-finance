@@ -1,5 +1,5 @@
 # aabor/rstudio-finance
-FROM aabor/rstudio
+FROM aabor/rstudio:3.1.1
 # finance, forcasting
 RUN installGithub.r \
     # Tools for Transaction-Oriented Trading Systems Development
